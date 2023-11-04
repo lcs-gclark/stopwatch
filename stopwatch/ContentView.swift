@@ -11,14 +11,13 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             //first layer background
-            Color.yellow
+            Color.black
                 .ignoresSafeArea()
             //secondlayer rest of interface
             VStack {
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundStyle(.tint)
-                Text("Hello, world!")
+                Text ("00:09.96")
+                    .font(Font.system(size: 90, weight: .thin))
+                    .foregroundStyle(.white)
             }
             .padding()
         }
