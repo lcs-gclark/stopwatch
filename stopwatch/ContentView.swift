@@ -18,11 +18,40 @@ struct ContentView: View {
                 Text ("00:09.96")
                     .font(Font.system(size: 90, weight: .thin))
                     .foregroundStyle(.white)
-            }
-            .padding()
-        }
-    }
-}
+             
+                //circular button
+               
+                VStack {
+                    HStack {
+                        
+                        circlebutton(bodyColor: .gray, label: "reset", labelColor: .white)
+                        Spacer()
+                        circlebutton(bodyColor: .green, label: "start", labelColor: .white)
+                    }
+                                
+                                //lapped times
+                        HStack{
+                            Text("lap1")
+                                .foregroundStyle(.white)
+                            Spacer()
+                            Text("00:00:97")
+                                .foregroundStyle(.white)
+                            
+                            
+                        }
+                        }
+                                
+                            
+                    }
+                }
+                }
+                }
+                
+            
+            
+        
+
+
 
 #Preview {
     ContentView()
