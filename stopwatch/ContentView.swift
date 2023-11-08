@@ -39,7 +39,25 @@ struct ContentView: View {
                                 //lapped times
                     Rectangle()
                         .frame(height: 10)
-                    lapped_times(letterColor: .white, lapNumber: "Lap 1", lapTime: "00:00:96")
+                    VStack {
+                        //lap5
+                        lapped_times(letterColor: .white, lapNumber: "Lap 5", lapTime: "00:00:98")
+                        //lap4
+                        lapped_times(letterColor: .red, lapNumber: "Lap 4", lapTime: "00:04:08")
+                        //lap3
+                        lapped_times(letterColor: .green, lapNumber: "Lap 3", lapTime: "00:00:96")
+                        //lap2
+                        lapped_times(letterColor: .white, lapNumber: "Lap 2", lapTime: "00:02:76")
+                        //lap1
+                        lapped_times(letterColor: .white, lapNumber: "Lap 1", lapTime: "00:01:16")
+                        
+                        HStack{
+                           
+                               
+                            
+                        }
+                        }
+                    
                             
                             
                         
