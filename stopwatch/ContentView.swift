@@ -26,19 +26,23 @@ struct ContentView: View {
                         
                         circlebutton(bodyColor: .gray, label: "reset", labelColor: .white)
                         Spacer()
+                        Circle()
+                        .foregroundStyle(.white)
+                        .frame(width: 10)
+                        Circle()
+                            .foregroundStyle(.gray)
+                            .frame(width: 10)
+                        Spacer()
                         circlebutton(bodyColor: .green, label: "start", labelColor: .white)
                     }
                                 
                                 //lapped times
-                        HStack{
-                            Text("lap1")
-                                .foregroundStyle(.white)
-                            Spacer()
-                            Text("00:00:97")
-                                .foregroundStyle(.white)
+                    Rectangle()
+                        .frame(height: 10)
+                    lapped_times(letterColor: .white, lapNumber: "Lap 1", lapTime: "00:00:96")
                             
                             
-                        }
+                        
                         }
                                 
                             

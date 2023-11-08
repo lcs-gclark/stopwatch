@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F43851E2AFBCDB5003E76A1 /* lapped times.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F43851D2AFBCDB5003E76A1 /* lapped times.swift */; };
 		6FD38AC12AF5558D0004DAF8 /* stopwatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD38AC02AF5558D0004DAF8 /* stopwatchApp.swift */; };
 		6FD38AC32AF5558D0004DAF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD38AC22AF5558D0004DAF8 /* ContentView.swift */; };
 		6FD38AC52AF5558F0004DAF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD38AC42AF5558F0004DAF8 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F43851D2AFBCDB5003E76A1 /* lapped times.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "lapped times.swift"; sourceTree = "<group>"; };
 		6FD38ABD2AF5558D0004DAF8 /* stopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stopwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD38AC02AF5558D0004DAF8 /* stopwatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stopwatchApp.swift; sourceTree = "<group>"; };
 		6FD38AC22AF5558D0004DAF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				6FD38AC42AF5558F0004DAF8 /* Assets.xcassets */,
 				6FD38AC62AF5558F0004DAF8 /* Preview Content */,
 				6FE40D512AF9753200243BF1 /* circlebutton.swift */,
+				6F43851D2AFBCDB5003E76A1 /* lapped times.swift */,
 			);
 			path = stopwatch;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FD38AC32AF5558D0004DAF8 /* ContentView.swift in Sources */,
+				6F43851E2AFBCDB5003E76A1 /* lapped times.swift in Sources */,
 				6FD38AC12AF5558D0004DAF8 /* stopwatchApp.swift in Sources */,
 				6FE40D522AF9753200243BF1 /* circlebutton.swift in Sources */,
 			);
