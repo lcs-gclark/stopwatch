@@ -12,7 +12,6 @@
 		6FD38AC52AF5558F0004DAF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD38AC42AF5558F0004DAF8 /* Assets.xcassets */; };
 		6FD38AC82AF5558F0004DAF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD38AC72AF5558F0004DAF8 /* Preview Assets.xcassets */; };
 		6FE40D522AF9753200243BF1 /* circlebutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE40D512AF9753200243BF1 /* circlebutton.swift */; };
-		6FE40D542AF97A4500243BF1 /* lappedtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE40D532AF97A4500243BF1 /* lappedtime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		6FD38AC42AF5558F0004DAF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FD38AC72AF5558F0004DAF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6FE40D512AF9753200243BF1 /* circlebutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circlebutton.swift; sourceTree = "<group>"; };
-		6FE40D532AF97A4500243BF1 /* lappedtime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lappedtime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,6 @@
 				6FD38AC42AF5558F0004DAF8 /* Assets.xcassets */,
 				6FD38AC62AF5558F0004DAF8 /* Preview Content */,
 				6FE40D512AF9753200243BF1 /* circlebutton.swift */,
-				6FE40D532AF97A4500243BF1 /* lappedtime.swift */,
 			);
 			path = stopwatch;
 			sourceTree = "<group>";
@@ -143,7 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FE40D542AF97A4500243BF1 /* lappedtime.swift in Sources */,
 				6FD38AC32AF5558D0004DAF8 /* ContentView.swift in Sources */,
 				6FD38AC12AF5558D0004DAF8 /* stopwatchApp.swift in Sources */,
 				6FE40D522AF9753200243BF1 /* circlebutton.swift in Sources */,

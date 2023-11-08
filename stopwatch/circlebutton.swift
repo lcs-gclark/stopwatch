@@ -41,5 +41,5 @@ struct circlebutton: View {
 }
 
 #Preview {
-    circlebutton(bodyColor: .green, label: "reset", labelColor: .blue)
+    circlebutton(bodyColor: .gray, label: "reset", labelColor: .white)
 }
